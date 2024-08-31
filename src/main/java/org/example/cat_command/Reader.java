@@ -1,6 +1,5 @@
-package org.example.head_command;
+package org.example.cat_command;
 
 public interface Reader {
-
     void read();
 }

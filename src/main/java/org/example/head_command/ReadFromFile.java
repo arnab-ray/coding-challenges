@@ -32,7 +32,7 @@ public class ReadFromFile implements Reader {
         try {
             for (String fileName : fileNames) {
                 System.out.println("==> " + fileName + " <==");
-                if (type ==TypeOfRead.LINE) {
+                if (type == TypeOfRead.LINE) {
                     readLine(number, fileName);
                 } else {
                     readBytes(number, fileName);
